@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+  
+}
+
+ body {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.main {
+    height: 929px;
+
+}
+
+.main .shows {
+    display: flex;
+    float: left;
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.main .shows a {
+    text-decoration: none;
+    color: black;
+}
+
+.main .shows i {
+    font-size: 8px
+}
+
+.main .shows .anchor a {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+.aside {
+    width: 50%;
+    float: left;
+    position: relative;
+    clear: both;
+}
+
+.aside .regis {
+    float: right;
+    width: 564px;
+    background-color: #F5F7FF;
+    clear: both;
+    height: 415.46px;
+    border: 1px solid #F5F7FF;
+}
+
+.article {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.article .newCustom {
+    float: left;
+    width:564px;
+    margin-left: 20px;
+    background-color: #F5F7FF;
+    height: 415px;
+    position: relative;
+    border: 1px solid #F5F7FF;
+}
+
+.article .newCustom #create {
+    background-color: #40AD87;
+    color: #FFFFFF;
+    width: 208px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #40AD87;
+    margin-top: 30px;
+}
+.main .aside a:hover {
+    cursor: pointer;
+    color: #3CB371;
+}
+.main .aside #sign:hover{
+    cursor: pointer;
+    background-color: #3CB371;
+}
+
+.article .newCustom  #create:hover {
+    cursor: pointer;
+    background-color: #3CB371;
+}
+
+.article .newCustom .ele, .aside  .regis .ele {
+    margin-left: 50px;
+    position: absolute;
+    margin-top: 19px;
+}
+
+.aside .regis form input {
+    width: 449px;
+    height: 50px;
+    text-shadow: none;
+    border-radius: 4px;
+    border: 1px solid #A2A6B0;
+}
+
+.regis form #sign {
+    clear: both;
+    margin-top: 30px;
+    width: 151px;
+    float: left;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #40AD87;
+    border: 1px solid #40AD87;
+    color: #FFFFFF;
+}
+
+.regis form :hover {
+    cursor: pointer;
+}
+
+.regis form input :hover {
+    border: 0.4px solid black;
+}
+
+.regis form p span {
+    color: rgb(187, 40, 14);
+}
+.aside form p {
+    font-size: 14px;
+    font-weight: 600;
+}
+.newCustom li ,.main .table_1 table td, form input{
+    font-size: 14px;
+    font-weight: 300;
+}
+.table_1 table th {
+    font-weight: 700;
+    font-size: 18px;
+}
+.aside a {
+    font-weight: 400;
+    font-size: 14px;
+}
+ 
+
+.regis form a {
+    float: left;
+    padding-top: 43px;
+    padding-left: 23px;
+    text-decoration: none;
+    color: #40AD87;
+}
+
+
+
+.main h1 {
+    margin-left: 60px;
+    clear: both;
+    font-size: 32px;
+    line-height: 27px;
+   
+}
+.main .ele #ele_head{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.regis .ele form #pInput{
+    margin-bottom: 2px;
+}
+
+.main .table_1 {
+
+    clear: both;
+    width: 100%;
+}
+
+.main .table_1 i {
+    margin-top: 81.2px;
+}
+
+.main .table_1 i {
+    width: 65px;
+    height: 65px;
+    background: #40AD87;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 25px;
+    position: relative;
+    padding-top: 15px;
+}
+
+.main table {
+    clear: both;
+    padding-top: 0px;
+    margin: auto;
+}
+
+.main table tr td {
+   
+    text-align: center;
+    width: 350px;
+    
+}
+
+.main table tr th {
+    font-weight: 600;
+    text-align: center;
+    
+    
+}
+
+.main .table_1 table tr #title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.title {
+    clear: both;
+    visibility: hidden;
+    display: none;
+    
+}
+.footer {
+    width: 100%;
+    height: 530px;
+    background: #020203;
+    color: #FFFFFF;
+    position: relative;
+    clear: both;
+    display: flex;
+}
+.footer .pack {
+   float: left;
+   margin: auto;
+}
+
+.footer .fonTit, .subs {
+    float: left;
+}
+.footer  .fonTit  {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.footer  .fonTit h1 {
+    font-size:24px;
+  
+}
+.footer .subs #text {
+    width: 394px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #000000;
+    border: 2px solid #FFFFFF;
+    margin-top: 65px;
+    margin-left: 68px;
+    font-size: 14px;
+}
+.footer .subs #submit {
+    width: 151px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #3CB371;
+    border: #3CB371;
+    color: #FFFFFF;
+    margin-left: 23px;
+    font-size: 14px;
+}
+.footer .pack .bet {
+    float: left;
+    clear: both;
+}
+.footer .bet  table th ,td{
+    text-align: left;
+    padding-right: 60px;
+
+}
+.footer .bet table th {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #A2A6B0;
+}
+.footer .bet table td{
+    color: #F5F7FF;
+    font-size: 13px;
+    font-weight: 300;
+}
+.footer .bet table td span {
+    color: #3CB371;
+    font-size: 13px;
+}
+.pack  .bet table {
+    border-bottom: 1px solid rgb(180, 173, 173);
+    padding-bottom: 30px;
+    margin: auto;
+    height: 233px;
+    
+   
+}
+.pack .bot {
+    clear: both;
+    float: left;
+    width: 100%;
+   
+}
+.pack .bot .left {
+    display: flex;
+    float: left;
+   width: 40%;
+    
+}
+.pack .bot .left ul {
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 0px;
+   
+}
+.pack .bot .left ul li  i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.bot .center ul {
+    display: flex;
+    list-style-type: none;
+    
+}
+.bot .center ul li {
+    padding-right: 10px;
+}
+.bot .right  {
+    float: right;  
+}
+.bot .center {
+    float: left;
+  
+}
+.bot .right p,span i{
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px) {
+   
+    .article .newCustom, .aside .regis{
+        width: 470px;
+        height: 500px;
+    }
+  
+    .article .newCustom .ele, .aside  .regis .ele {
+        margin-left: 30px;
+    }
+    .aside .regis form input {
+        width: 400px;
+        height: 50px;
+       
+    }
+    .footer {
+        height: 550px;
+     
+    }
+    .footer .fonTit{
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+  
+    .footer .subs {
+        clear: both;
+        margin-bottom: 20px;
+    }
+    .footer .subs #text {
+        margin: auto;
+    }
+    .footer .bet table th {
+        font-size: 14px;
+        padding-bottom: 0px;
+        color: #A2A6B0;
+    }
+    .footer .bet  table th ,td{
+        text-align: left;
+        padding-right: 20px;
+    
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .article .newCustom, .aside .regis{
+        width: 400px;
+        height: 540px;
+    }
+  
+    .article .newCustom .ele, .aside  .regis .ele {
+        margin-left: 30px;
+    }
+    .aside .regis form input {
+        width: 330px;
+        height: 50px;
+       
+    }
+    .footer {
+        height: 52˜0px;
+    }
+    .pack .bot .left {
+    
+       width: 15%;
+        
+    }
+     .bet table #tb_2,#tb_4{
+        visibility: hidden;
+        display: none;
+    }
+    .bet table td {
+        padding-right: 10px;
+    }
+    .pack .bet table {
+        padding-bottom: 10px;
+    }
+
+    
+}
+@media screen and (max-width:768px){
+    .article , .aside{
+        width: 100%;
+        height: 550px;
+        justify-content: center;
+        display: flex;
+    }
+    .aside {
+        margin-bottom: 20px;
+    }
+    .article .newCustom {
+        margin-left: 0px;
+    }
+    .article .newCustom .ele, .aside  .regis .ele {
+       position: relative;
+    }
+
+   .table_1 {
+    visibility: hidden;
+    display: none;
+}
+.title {
+ clear: both;
+ display: block;
+ visibility: visible;
+
+ 
+}
+.main .table_2 i {
+ margin-top: 20px;
+}
+
+.main .table_2 i {
+ width: 65px;
+ height: 65px;
+ background: #40AD87;
+ color: #FFFFFF;
+ border-radius: 50%;
+ margin-right: 15px;
+ font-size: 25px;
+ position: relative;
+ padding-top: 15px;
+}
+
+.main .table_2 table td{
+ font-size: 14px;
+ font-weight: 300;
+}
+.table_2 table th {
+ font-weight: 700;
+ font-size: 18px;
+}
+}
+@media screen and (max-width:576px){
+    .main {
+        height: 1600px;
+    }
+    .main h1{
+        float: left;
+        margin-left: 0px;
+        clear: both;
+        font-weight: 600;
+    }
+    .main .shows {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .aside {
+        width: 100%;
+        height: 400px;
+        float: left;
+        margin-bottom: 20px;
+        background-color: #F5F7FF;
+    }
+    .article {
+        width: 100%;
+        height: 415px;
+        float: left;
+        background-color: #F5F7FF;
+    }
+    .aside .regis {
+        width: 100%;
+        float: left;
+        height: 400px;
+        margin-left: 20px;
+
+    }
+   
+    .article .newCustom {
+        width: 100%;
+        height: 415px;
+        margin-left: 0px;
+        float: left;
+        margin-left: 20px;
+       
+    }
+    .aside .regis form input {
+        width: 360px;
+        height: 45px;
+       
+    }
+    .article .newCustom .ele, .aside .regis .ele
+    {
+        margin-left: 0px;
+    
+    }
+
+}
